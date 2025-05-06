@@ -34,9 +34,7 @@ Problem 3
 The issues mentioned above occur consistently across multiple platforms, including:
 
 Android emulator (Expo Go SDK 53)
-
 iOS physical device (Expo Go SDK 53)
-
 Android physical device (Expo Go SDK 53)
 
 ```
