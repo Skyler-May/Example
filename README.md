@@ -27,3 +27,13 @@ When using the innermost stack layout, after initializing the project, switching
 Request
 Please help provide solutions or workarounds for the two issues described above.
 Thank you!
+
+```
+├─ bug    # The pictures, texts and videos related to the problem are in this folder
+│  ├─ Android Emulator - Pixel_8_5554 2025-05-06 23-56-15.mp4
+│  ├─ Game.png
+│  ├─ Home.png
+│  ├─ Profile.png
+│  └─ Wallet.png
+
+```
