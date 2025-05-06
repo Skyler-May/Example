@@ -30,6 +30,15 @@ Request
 Please help provide solutions or workarounds for the two issues described above.
 Thank you!
 
+Problem 3
+The issues mentioned above occur consistently across multiple platforms, including:
+
+Android emulator (Expo Go SDK 53)
+
+iOS physical device (Expo Go SDK 53)
+
+Android physical device (Expo Go SDK 53)
+
 ```
 ├─ bug    # The pictures, texts and videos related to the problem are in this folder
 │  ├─ Android Emulator - Pixel_8_5554 2025-05-06 23-56-15.mp4
