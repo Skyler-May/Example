@@ -38,7 +38,7 @@ Please help provide solutions or workarounds for the issues described above.
 Thank you!
 
 ```
-├─ bug    # The pictures, texts and videos related to the problem are in this folder
+├─ screenshot    # The pictures, texts and videos related to the problem are in this folder
 │  ├─ Android Emulator - Pixel_8_5554 2025-05-06 23-56-15.mp4
 │  ├─ Game.png
 │  ├─ Home.png
