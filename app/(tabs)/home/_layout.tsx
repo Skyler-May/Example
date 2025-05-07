@@ -26,6 +26,11 @@ export default function HomeLayout() {
               <AntDesign name="menu-fold" size={24} color={"#fff"} />
             </TouchableOpacity>
           ),
+          headerRight: () => (
+            <TouchableOpacity>
+              <AntDesign name="search1" size={24} color={"#fff"} />
+            </TouchableOpacity>
+          ),
         }}
       />
     </Stack>
