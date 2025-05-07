@@ -1,8 +1,12 @@
 import AntDesign from "@expo/vector-icons/AntDesign";
-import { Stack } from "expo-router";
+import { DrawerActions } from "@react-navigation/native";
+import { Stack, useNavigation } from "expo-router";
 import { TouchableOpacity } from "react-native";
 
 export default function HomeLayout() {
+  const navigation = useNavigation();
+  const openDrawer = () => navigation.dispatch(DrawerActions.openDrawer());
+
   return (
     <Stack
       screenOptions={{
@@ -18,7 +22,7 @@ export default function HomeLayout() {
         options={{
           title: "Home",
           headerLeft: () => (
-            <TouchableOpacity onPress={() => {}}>
+            <TouchableOpacity onPress={openDrawer}>
               <AntDesign name="menu-fold" size={24} color={"#fff"} />
             </TouchableOpacity>
           ),

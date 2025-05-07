@@ -6,7 +6,7 @@ export default function TabsLayout() {
     <Tabs
       initialRouteName="home"
       screenOptions={{
-        headerShown: false,
+        // headerShown: false,
         tabBarStyle: {
           backgroundColor: "#ccc",
           borderTopColor: "#000",
@@ -57,6 +57,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="profile"
         options={{
+          tabBarBadge: 1,
           title: "Profile",
           tabBarIcon: ({ color, size, focused }) => (
             <Ionicons
