@@ -16,7 +16,7 @@ export default function WalletLayout() {
       <Stack.Screen
         name="index"
         options={{
-          title: "钱包",
+          title: "Wallet",
           headerLeft: () => (
             <TouchableOpacity onPress={() => {}}>
               <AntDesign name="menu-fold" size={24} color={"#fff"} />
